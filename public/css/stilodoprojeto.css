@@ -1,0 +1,135 @@
+html {
+  min-height: 100%; /* Isto é necessário para que o efeito gradiente envolva toda a página */
+}
+
+.modal1{
+ width: 580px;
+ height: 580px;
+
+}
+.inputmodal{
+  width: 250px;
+  height: 20px;
+}
+.lista ul{
+  list-style-type: none;
+}
+.imagemcarousel{
+  width: 1200px;
+  height: 300px;    
+}
+.imagemlogo{
+  width: 90px;
+  height: 60px;
+
+}
+.imagemesticada{
+  width: 1200px;
+}
+.Estilot{
+  color: #668cff;
+  font-size: 26px;
+}
+.Estilot2{
+  font-size: 16px;
+}
+.botao{
+  float:right;
+  display: block;
+}
+.menu ul li{
+  background-color: #6da3f9;
+  float: left;
+  width: 250px;
+  height: 40px;
+  display: inline-block;
+  text-align: center;
+  line-height: 40px;
+  font-size: 24px;
+  position: relative;
+}
+
+.menu ul li:hover{
+  background-color: #2c69cc;
+}
+
+.menu ul{
+  padding: 0px;
+}
+
+.menu ul ul{
+  display: none;
+}
+
+.menu ul li:hover > ul{
+  display:block;
+}
+
+.menu ul ul ul{
+  margin-left: 201px;
+  top: 0px;
+  position: absolute;
+}
+
+.menu ul ul li:hover{
+  background-color: #144aa0;
+}
+
+.menu ul ul ul li:hover{
+  background-color: #062a66;
+}
+
+.menu a{
+  color: white;
+  text-decoration: none;
+}
+
+.Estilo2 {font-size: 12px
+}
+.Estilo3 {color: #CCCCCC}
+.Estilo8 {font-size: 19px; color: #0099FF; }
+.Estilo9 {font-size: 0,9}
+.Estilo12 {font-size: 0,9; color: #000000; }
+.Estilo13 {color: #000000}
+.Estilo10 {font-size: 19px;color: #CBC8C5}
+.Estilo11 { color: #CCCCCC;
+  font-size: 15px;
+}
+.Estilo14 {font-size: 15px}
+.Estilo15 {color: #FFFFFF}
+.Estilo16 {
+  font-size: 15px;
+  font-weight:bold;
+}
+.Estilo17 {
+  text-align: justify;
+  font-size:15px;
+}
+.Estilo18{
+ text-align: center;
+ font-size:15px; 
+ font-weight:bold;
+}
+.texto{
+  text-align: justify;
+  color: #CCCCCC;
+  padding-top: 10px
+}
+.texto2{
+  text-align: center;
+  color: #CCCCCC;
+  padding: -30px;
+}
+.imagemAnimais{
+  width: 40px;
+  height: 20px; 
+}
+body, html{
+  margin:0;
+  padding:0;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
